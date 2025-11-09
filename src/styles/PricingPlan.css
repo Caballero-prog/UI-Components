@@ -1,0 +1,25 @@
+/* {
+    outline: solid 2px hotpink;
+}*/
+
+.pricing-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 2rem;
+}
+
+.pricing-plan-title {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.pricing-plan-description {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    max-width: 40rem;
+    text-align: center;
+    text-wrap: balance;
+}
