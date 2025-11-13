@@ -3,9 +3,9 @@ import PricingPlan from "./components/PricingPlan";
 
 function App() {
   return (
-    <>
+    <main className="main-container">
       <PricingPlan />
-    </>
+    </main>
   );
 }
 

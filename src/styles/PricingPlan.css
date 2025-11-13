@@ -1,25 +1,30 @@
-/* {
+* {
     outline: solid 2px hotpink;
-}*/
+}
 
 .pricing-plan {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     justify-content: center;
     align-items: center;
     background-color: #f7f7f7;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .pricing-plan-title {
+    grid-column: 2 / span 3;
+    text-align: center;
+    padding: 1rem;
     font-size: 3rem;
     font-weight: 600;
 }
 
 .pricing-plan-description {
-    margin-top: 2rem;
-    font-size: 1.6rem;
-    max-width: 40rem;
+    grid-column: 2 / span 3;
+    font-size: 1.2rem;
+    padding: 1rem;
     text-align: center;
     text-wrap: balance;
+    line-height: 1.4;
+    font-weight: 500;
 }
