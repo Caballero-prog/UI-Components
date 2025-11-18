@@ -6,3 +6,7 @@ body {
   color: #4a4a4a;
   font-family: "Montserrat", sans-serif;
 }
+
+:root {
+  --accent-color:#b2ddd7;
+}
